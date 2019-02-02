@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Camera
 camera.                             u:object_r:camera_prop:s0
 cameradaemon.SaveMemAtBoot          u:object_r:camera_prop:s0
@@ -39,5 +40,7 @@ wifi.active                         u:object_r:wifi_active_prop:s0
 # MPCTL
 sys.post_boot.parsed                u:object_r:vendor_mpctl_prop:s0
 
+=======
+>>>>>>> 9022823... whyred : sepolicy: Address Dirac denials
 # Dirac
 persist.audio.dirac.                u:object_r:dirac_prop:s0

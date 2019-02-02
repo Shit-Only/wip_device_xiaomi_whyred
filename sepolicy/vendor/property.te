@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Fingerprint
 type vendor_fp_prop, property_type;
 
@@ -13,5 +14,7 @@ type vendor_camera_prop, property_type;
 
 type wifi_active_prop, property_type;
 
+=======
+>>>>>>> 9022823... whyred : sepolicy: Address Dirac denials
 # Dirac
 type dirac_prop, property_type;
