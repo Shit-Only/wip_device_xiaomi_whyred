@@ -21,3 +21,6 @@ type debugfs_rpm, debugfs_type, fs_type;
 
 #define blkio device
 type blkio_device, dev_type;
+
+# Kcal
+type kcal_dev, sysfs_type, fs_type;
