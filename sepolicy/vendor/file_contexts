@@ -71,6 +71,7 @@
 /(vendor|system/vendor)/lib(64)?/vendor\.display\.config@1\.8\.so                                                                               u:object_r:same_process_hal_file:s0
 /(vendor|system/vendor)/lib(64)?/vendor\.display\.config@1\.9\.so                                                                               u:object_r:same_process_hal_file:s0
 
+<<<<<<< HEAD
 # Kcal
 /sys/devices/platform/kcal_ctrl.0(/.*)?         u:object_r:kcal_dev:s0
 /sys/bus/platform/drivers/kcal_ctrl(/.*)?       u:object_r:kcal_dev:s0
@@ -81,3 +82,5 @@
 # HW Info
 /sys/devices/platform/HardwareInfo(/.*)? u:object_r:sysfs_info:s0
 /sys/devices/platform/HardwareInfo/gsensor  u:object_r:sysfs_info:s0
+=======
+>>>>>>> 227ea5d... whyred : add Usb force fast charge support in parts
