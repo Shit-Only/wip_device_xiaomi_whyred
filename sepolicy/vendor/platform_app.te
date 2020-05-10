@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 get_prop(platform_app, persist_camera_prop) 
 get_prop(platform_app, camera_prop) 
 allow platform_app sysfs_kgsl:dir { search };
 allow platform_app sysfs_kgsl:lnk_file read;
-=======
 allow platform_app sysfs_leds:dir search;
->>>>>>> 4322c22... whyred :  sepolicy: Add torch's brightness sepolicy
