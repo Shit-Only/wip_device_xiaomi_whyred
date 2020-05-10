@@ -64,8 +64,6 @@
             </intent-filter>
         </activity>
 
-<<<<<<< HEAD
-=======
         <service android:name="com.xiaomi.parts.ambient.SensorsDozeService"
                  android:permission="SensorsDozeService">
         </service>
@@ -79,7 +77,6 @@
             </intent-filter>
         </activity>
 
->>>>>>> 3baf291... whyred : Add drawable for custom ambient
         <service
             android:name=".DiracService"
             android:enabled="true"
