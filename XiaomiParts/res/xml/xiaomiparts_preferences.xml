@@ -79,11 +79,7 @@
                 android:targetPackage="com.xiaomi.parts.kcal"/>
         </Preference>
 
-<<<<<<< HEAD
-    <PreferenceScreen
-=======
         <PreferenceScreen
->>>>>>> 129f0d4... whyred : Refactor Xiaomi Parts
             android:key="ambient_display_gestures"
             android:fragment="com.xiaomi.parts.ambient.AmbientGesturePreferenceActivity"
             android:summary="@string/ambient_display_gestures_summary"

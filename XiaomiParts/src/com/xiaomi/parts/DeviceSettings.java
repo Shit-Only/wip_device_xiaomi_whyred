@@ -48,9 +48,6 @@ public class DeviceSettings extends PreferenceFragment implements
     public static final  String PREF_BACKLIGHT_DIMMER = "backlight_dimmer";
     public static final  String BACKLIGHT_DIMMER_PATH = "/sys/module/mdss_fb/parameters/backlight_dimmer";
 
-<<<<<<< HEAD
-   @Override
-=======
     //public static final String PREF_TORCH_BRIGHTNESS = "torch_brightness";
     //private static final String TORCH_1_BRIGHTNESS_PATH = "/sys/devices/soc/800f000.qcom," +
     //        "spmi/spmi-0/spmi0-03/800f000.qcom,spmi:qcom,pm660l@3:qcom,leds@d300/leds/led:torch_0/max_brightness";
@@ -59,7 +56,6 @@ public class DeviceSettings extends PreferenceFragment implements
 
 
     @Override
->>>>>>> 129f0d4... whyred : Refactor Xiaomi Parts
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         setPreferencesFromResource(R.xml.xiaomiparts_preferences, rootKey);
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this.getContext());
@@ -115,17 +111,11 @@ public class DeviceSettings extends PreferenceFragment implements
         fpsInfo.setOnPreferenceChangeListener(this);
 
         Preference kcal = findPreference(PREF_DEVICE_KCAL);
-<<<<<<< HEAD
-
-=======
->>>>>>> 129f0d4... whyred : Refactor Xiaomi Parts
         kcal.setOnPreferenceClickListener(preference -> {
             Intent intent = new Intent(getActivity().getApplicationContext(), KCalSettingsActivity.class);
             startActivity(intent);
             return true;
         });
-<<<<<<< HEAD
-=======
 
         Preference ambientDisplay = findPreference(AMBIENT_DISPLAY);
         ambientDisplay.setOnPreferenceClickListener(preference -> {
@@ -133,7 +123,6 @@ public class DeviceSettings extends PreferenceFragment implements
             startActivity(intent);
             return true;
         });
->>>>>>> 129f0d4... whyred : Refactor Xiaomi Parts
     }
 
     @Override

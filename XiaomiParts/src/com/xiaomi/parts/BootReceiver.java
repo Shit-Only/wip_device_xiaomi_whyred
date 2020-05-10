@@ -71,8 +71,6 @@ public class BootReceiver extends BroadcastReceiver implements Utils {
 
 	//Dirac
         context.startService(new Intent(context, DiracService.class));
-<<<<<<< HEAD
-=======
 	//Ambient
         context.startService(new Intent(context, SensorsDozeService.class));
 
@@ -80,6 +78,5 @@ public class BootReceiver extends BroadcastReceiver implements Utils {
         if (enabled) {
             context.startService(new Intent(context, FPSInfoService.class));
         }
->>>>>>> 129f0d4... whyred : Refactor Xiaomi Parts
     }
 }
